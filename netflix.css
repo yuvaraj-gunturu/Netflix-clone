@@ -1,0 +1,464 @@
+body {
+	font-family: sans-serif;
+	margin: 0mm;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 1);
+}
+.background-img {
+	background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c8c8a0ad-86d6-45f1-b21d-821afa4e5027/121450d3-2d2f-41a9-acd6-b050ca0e0424/IN-en-20220801-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.background-container {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+select {
+	border: 0cm;
+}
+.headder {
+	display: flex;
+	height: 10rem;
+
+	padding-top: 5px;
+}
+/* image of netflix */
+.logo-netflix {
+	flex-grow: 1;
+}
+.empty-container {
+	flex-grow: 9;
+}
+/* s */
+.login-details {
+	display: flex;
+	gap: 20px;
+	flex-grow: 1;
+}
+
+.language {
+	border: 1px solid white;
+	width: 6rem;
+	height: 2rem;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+.sign-in-button {
+	border: 0cm;
+	background-color: red;
+	color: aliceblue;
+	width: 6rem;
+	height: 2.75rem;
+	font-size: medium;
+}
+/* heading-container */
+.heading h1 {
+	color: white;
+	opacity: 1;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+.heading h2 {
+	color: white;
+
+	text-align: center;
+}
+.heading h4 {
+	color: white;
+	text-align: center;
+}
+/* adress-container */
+.adress {
+	display: flex;
+	height: 60px;
+
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 200px;
+	border-bottom: 5px solid gray;
+}
+
+.adress input {
+	font-weight: 300;
+
+	height: 100%;
+	width: 500px;
+	border: 0em;
+	margin: 0%;
+}
+.adress h3 {
+	color: white;
+	font-size: x-large;
+	font-weight: 300;
+	background-color: red;
+	text-align: center;
+	padding: 15px;
+	margin: 0%;
+	height: 100%;
+	box-sizing: border-box;
+}
+/* section-container */
+.our-animation-section {
+	display: flex;
+	margin: 5%;
+}
+.second-container {
+	color: white;
+	padding-top: 6%;
+	padding-left: 12%;
+}
+.second-container h1 {
+	font-size: 60px;
+	font-weight: 400;
+}
+.second-container p {
+	font-size: 30px;
+	font-weight: 100;
+}
+/* animation section */
+.our-story-card {
+	display: flex;
+	position: relative;
+	height: 100%;
+	width: auto;
+	padding-right: 10%;
+}
+.our-image-card {
+	position: relative;
+	z-index: 2;
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+.our-video-card {
+	position: absolute;
+	top: 47%;
+	left: 40%;
+	max-height: 54%;
+	max-width: 73%;
+	transform: translate(-50%, -50%);
+}
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+hr {
+	border: 3px solid grey;
+}
+/* section-3 container  */
+.section-3 {
+	display: flex;
+	padding-bottom: 10%;
+	padding-left: 10%;
+}
+.our-section-3 {
+	position: relative;
+	padding-top: 5%;
+}
+.our-img-section-container {
+	position: relative;
+}
+.our-img-section-container img {
+	width: 380px;
+	height: 290px;
+}
+.our-second-img-section {
+	display: flex;
+	position: absolute;
+	padding-left: 5rem;
+}
+.our-second-img-section img {
+	width: 52px;
+	height: 72px;
+}
+.strange-thing {
+	padding-left: 10px;
+}
+.stranger {
+	color: white;
+	font-size: larger;
+	padding-top: 10px;
+}
+.download {
+	color: blue;
+}
+.animation-section {
+	background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+	width: 48px;
+	height: 60px;
+	background-size: 100%;
+	content: "";
+	display: block;
+}
+.offline-content {
+	color: white;
+	padding-top: 20%;
+	font-size: 60px;
+	font-weight: 400;
+	padding-left: 10%;
+}
+.save-offline-content {
+	color: white;
+	font-size: 30px;
+	font-weight: 200;
+	padding-left: 10%;
+}
+/* section-4 */
+.our-fourth-section {
+	display: flex;
+	padding-top: 7%;
+}
+.our-fourth-heading {
+	color: white;
+	font-size: 40px;
+	font-weight: 100;
+	padding-left: 13%;
+}
+.our-fourth-para {
+	color: white;
+	font-size: 30px;
+	font-weight: 100;
+	padding-left: 13%;
+}
+/* image and animation of second section */
+.our-story-card-2 {
+	position: relative;
+	height: 100%;
+	width: auto;
+	display: flex;
+}
+.our-image-card-2 {
+	position: relative;
+	z-index: 2;
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.our-video-card-2 video {
+	display: inline-block;
+	vertical-align: baseline;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+.our-video-card-2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 35%;
+	left: 50%;
+	max-height: 50%;
+	max-width: 60%;
+	transform: translate(-50%, -50%);
+}
+/* section-5 */
+.our-sec-5 {
+	display: flex;
+	padding: 5%;
+	padding-left: 15%;
+}
+.our-sec-5-heading {
+	color: white;
+	font-size: 60px;
+	font-weight: 300;
+	padding-bottom: 30px;
+	width: 30rem;
+	padding-top: 15%;
+}
+.our-sec-5-para {
+	color: white;
+	font-size: 30px;
+	font-weight: 100;
+	width: 30rem;
+}
+/* section-5 */
+.our-sec-6-heading {
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 100;
+}
+.my-container-6 {
+	padding-left: 8%;
+}
+.list {
+	margin: 6em;
+	width: 60%;
+	padding-left: 10%;
+}
+.list-items {
+	margin: 0 0 8px;
+	display: list-item;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: center;
+}
+.questions {
+	outline: none;
+	border: 0;
+	font-size: 25px;
+	font-weight: 400;
+
+	width: 100%;
+	display: block;
+	text-align: left;
+
+	color: white;
+}
+.cross {
+	color: white;
+	height: 1em;
+	right: 1em;
+	top: 30%;
+	width: 1em;
+	transform: rotate(45deg);
+	transition: transform 0.15s ease-in;
+}
+.list-item-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	background: #303030;
+	padding: 0 2rem;
+	border-bottom: 1px solid black;
+}
+input[type="checkbox"]:checked + label .cross {
+	transform: rotateZ(0deg);
+}
+input[type="checkbox"] {
+	border: none;
+	margin: 0ch;
+	padding: 0ex;
+	height: 0ch;
+	width: 0ch;
+	position: absolute;
+	opacity: 0;
+}
+.answer {
+	height: auto;
+	max-height: 0;
+	width: 100%;
+	background-color: #303030;
+	overflow: hidden;
+	transition: max-height 0.15s ease-out;
+}
+.answer p {
+	color: white;
+	text-align: left;
+	padding: 0 2rem;
+}
+input[type="checkbox"]:checked + label + .answer {
+	max-height: 1500px;
+}
+.my-para {
+	color: white;
+	font-size: larger;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 2%;
+}
+.adress-container {
+	display: flex;
+	height: 60px;
+	padding-left: 10%;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 200px;
+	border-bottom: 5px solid gray;
+}
+
+.adress-container input {
+	font-weight: 300;
+
+	height: 100%;
+	width: 500px;
+	border: 0em;
+	margin: 0%;
+}
+.adress-container h3 {
+	color: white;
+	font-size: x-large;
+	font-weight: 300;
+	background-color: red;
+	text-align: center;
+	padding: 15px;
+	margin: 0%;
+	height: 100%;
+	box-sizing: border-box;
+}
+/* section-7 */
+.footer-section {
+	color: #737373;
+	font-size: 1em;
+	padding: 0em;
+	margin: 5%;
+	padding-left: 20%;
+	padding-right: 10%;
+}
+.our-footer-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.our-footer-section p {
+	/* padding-right: 20%; */
+}
+.our-footer-section a {
+	/* margin: 10%;
+	padding: 10%; */
+	text-decoration: none;
+}
+.footer-section a {
+	color: #737373;
+	font-size: 1em;
+	text-decoration: none;
+}
+.footer-link {
+	box-sizing: border-box;
+	font-size: 13px;
+	max-width: 1000px;
+	color: #737373;
+	padding: 0cm;
+}
+.language-footer {
+	text-align: left;
+	/* padding-left: 3%; */
+	/* margin: 100px; */
+}
+.footer-link-item {
+	display: inline-block;
+	margin-bottom: 30px;
+	min-width: 250px;
+	padding: 0 12px 0 0;
+	vertical-align: top;
+	/* width: 25%; */
+	color: #737373;
+	text-align: left;
+}
+
+.login-details-section {
+	display: flex;
+	gap: 20px;
+	flex-grow: 1;
+	justify-content: left;
+	align-items: center;
+	padding-bottom: 3%;
+}
+
+.language-section {
+	border: 1px solid white;
+	width: 8rem;
+	height: 2rem;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
